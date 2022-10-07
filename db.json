@@ -1,4 +1,38 @@
 {
+    "login": [
+      {
+        "code": "400",
+        "status": "fail",
+        "message": "Login fail",
+        "data": ""
+      },
+      { 
+        "code": "200",
+        "status": "success",
+        "message": "Login success",
+        "data": {
+        "id": "2",
+        "username": "admin",
+        "password": "e10adc3949ba59abbe56e057f20f883e",
+        "fullname": "Administrators",
+        "img_profile": "admin.jpg",
+        "status": "1"
+        }
+      },
+      {
+        "code": "200",
+        "status": "success",
+        "message": "Login success",
+        "data": {
+          "id": "1",
+          "username": "user",
+          "password": "e10adc3949ba59abbe56e057f20f883e",
+          "fullname": "Guest",
+          "img_profile": "guest.jpg",
+          "status": "0"
+        }
+      }
+    ],
     "posts": [
       { "id": 1, "title": "Post 1" },
       { "id": 2, "title": "Post 2" },
