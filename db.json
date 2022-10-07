@@ -1,25 +1,28 @@
 {
-    "posts": [
+    "login": [
       {
+        "id": "0",
         "code": "400",
         "status": "fail",
         "message": "Login fail",
         "data": ""
       },
       { 
+        "id": "2",
         "code": "200",
         "status": "success",
         "message": "Login success",
         "data": {
-        "id": "2",
-        "username": "admin",
-        "password": "e10adc3949ba59abbe56e057f20f883e",
-        "fullname": "Administrators",
-        "img_profile": "admin.jpg",
-        "status": "1"
+          "id": "2",
+          "username": "admin",
+          "password": "e10adc3949ba59abbe56e057f20f883e",
+          "fullname": "Administrators",
+          "img_profile": "admin.jpg",
+          "status": "1"
         }
       },
       {
+        "id": "1",
         "code": "200",
         "status": "success",
         "message": "Login success",
@@ -33,6 +36,7 @@
         }
       },
       {
+        "id": "3",
         "code": "200",
         "status": "success",
         "message": "Login success",
@@ -45,16 +49,5 @@
           "status": "1"
         }
       }
-    ],
-    "TESTs": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "comments": [
-      { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+    ]
 }
