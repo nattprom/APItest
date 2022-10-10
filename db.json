@@ -53,15 +53,15 @@
     "schedule": [
       { 
         "id": "1",
-        "name": "สมยศ",
-        "surname": "รักดี",
+        "firstname": "สมยศ",
+        "lastname": "รักดี",
         "profession": "ศัลศาสตร์หัวใจ",
         "time": "08:00-12:00'"
       },
       { 
         "id": "2",
-        "name": "สายหยุด",
-        "surname": "จันทร์เพ็ญ",
+        "firstname": "สายหยุด",
+        "lastname": "จันทร์เพ็ญ",
         "profession": "ศัลศาสตร์หัวใจ",
         "time": "08:00-12:00'"
       }
